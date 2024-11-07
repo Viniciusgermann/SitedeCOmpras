@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#b9d23c"> <!-- Fundo verde -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detalhes_do_produto"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/etMarcaProduto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/marca"
+        android:inputType="text"
+        android:autofillHints="organizationName" />
+
+    <EditText
+        android:id="@+id/etPrecoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/preco"
+        android:inputType="numberDecimal"
+        android:autofillHints="price" />
+
+    <EditText
+        android:id="@+id/etMedidaProduto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/medida"
+        android:inputType="text"
+        android:autofillHints="measurement" />
+
+    <EditText
+        android:id="@+id/etDescricaoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/descricao"
+        android:inputType="textMultiLine"
+        android:autofillHints="description" />
+
+    <Button
+        android:id="@+id/btnEditarSalvarProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editar_salvar"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#edae56" /> <!-- Cor do botão -->
+
+</LinearLayout>

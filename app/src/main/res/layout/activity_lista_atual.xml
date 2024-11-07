@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#b9d23c"> <!-- Fundo verde -->
+
+    <ImageButton
+        android:id="@+id/btnVoltar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_arrow_back"
+        android:contentDescription="@string/voltar"
+        android:layout_margin="16dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvDataCriacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de Criação" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnNovoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Novo Produto"
+        android:backgroundTint="#edae56" /> <!-- Cor do botão -->
+
+    <Button
+        android:id="@+id/btnFecharLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fechar Lista"
+        android:backgroundTint="#edae56" /> <!-- Cor do botão -->
+
+</LinearLayout>

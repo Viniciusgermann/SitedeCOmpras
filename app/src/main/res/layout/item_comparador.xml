@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvNomeProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_produto"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etMedidaProduto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_medida"
+        android:inputType="numberDecimal"
+        android:autofillHints="measurement"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etPrecoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_preco"
+        android:inputType="numberDecimal"
+        android:autofillHints="price"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="produto_1">Produto 1</string>
+    <string name="hint_produto_1">Nome do Produto 1</string>
+    <string name="medida_1">Medida 1 (g, ml)</string>
+    <string name="hint_medida_1">Ex.: 500</string>
+    <string name="preco_1">Preço 1</string>
+    <string name="hint_preco_1">Ex.: 9.99</string>
+
+    <string name="produto_2">Produto 2</string>
+    <string name="hint_produto_2">Nome do Produto 2</string>
+    <string name="medida_2">Medida 2 (g, ml)</string>
+    <string name="hint_medida_2">Ex.: 1000</string>
+    <string name="preco_2">Preço 2</string>
+    <string name="hint_preco_2">Ex.: 14.99</string>
+
+    <string name="calcular">Calcular Melhor Custo-Benefício</string>
+
+    <string name="nome_produto">Produto</string>
+    <string name="hint_medida">Medida (g, ml, etc.)</string>
+    <string name="hint_preco">Preço</string>
+
+    <string name="titulo_configuracoes">Configurações</string>
+    <string name="opcao_notificacoes">Ativar Notificações</string>
+    <string name="opcao_tema_escuro">Tema Escuro</string>
+    <string name="salvar">Salvar Configurações</string>
+
+
+    <string name="configuracoes">Configurações</string>
+    <string name="notificacoes">Notificações</string>
+    <string name="tema_escuro">Tema Escuro</string>
+    <string name="salvar_configuracoes">Salvar Configurações</string>
+    <string name="configuracoes_salvas">Configurações salvas</string>
+    <string name="app_name">NomeDoSeuApp</string>
+
+    <string name="detalhes_do_produto">Detalhes do Produto</string>
+    <string name="nome">Nome</string>
+    <string name="marca">Marca</string>
+    <string name="preco">Preço</string>
+    <string name="medida">Medida</string>
+    <string name="descricao">Descrição</string>
+    <string name="editar_salvar">Editar/Salvar</string>
+
+        <!-- Strings para o layout de login -->
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="registrar">Registrar</string>
+    <string name="login">Login</string>
+
+
+    <string name="registrar_titulo">Registrar-se</string>
+    <string name="nome_hint">Nome</string>
+    <string name="email_hint">Email</string>
+    <string name="senha_hint">Senha</string>
+    <string name="voltar">Voltar</string>
+
+    <string name="hint_nome_produto">Nome do Produto</string>
+    <string name="hint_marca_produto">Marca do Produto</string>
+    <string name="hint_preco_produto">Preço do Produto</string>
+    <string name="btn_salvar">Salvar</string>
+
+
+
+
+</resources>

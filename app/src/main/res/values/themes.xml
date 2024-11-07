@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.SiteDeCompras" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Personalize seu tema aqui, se necessário -->
+    </style>
+</resources>

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#b9d23c"> <!-- Fundo verde -->
+
+    <!-- Nome do Produto -->
+    <EditText
+        android:id="@+id/etNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_nome_produto"
+        android:inputType="text"
+        android:autofillHints="name" />
+
+    <!-- Marca do Produto -->
+    <EditText
+        android:id="@+id/etMarcaProduto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_marca_produto"
+        android:inputType="text"
+        android:autofillHints="name" />
+
+    <!-- Preço do Produto -->
+    <EditText
+        android:id="@+id/etPrecoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_preco_produto"
+        android:inputType="numberDecimal"
+        android:autofillHints="price" />
+
+    <!-- Botão de Salvar -->
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_salvar"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#edae56" /> <!-- Cor do botão -->
+
+</LinearLayout>

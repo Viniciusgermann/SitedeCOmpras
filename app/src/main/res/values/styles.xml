@@ -1,0 +1,17 @@
+<!-- res/values/styles.xml -->
+<resources>
+
+    <!-- Tema principal da aplicação -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Define a cor de fundo das telas -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <!-- Outras configurações de tema (como cor de status bar, navigation bar etc.) -->
+    </style>
+
+    <!-- Estilo para os botões com a cor definida -->
+    <style name="ButtonStyle">
+        <item name="android:backgroundTint">@color/colorButton</item>
+        <item name="android:textColor">#FFFFFF</item> <!-- Exemplo de cor do texto no botão -->
+    </style>
+
+</resources>

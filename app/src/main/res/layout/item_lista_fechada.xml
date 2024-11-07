@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNomeLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da Lista"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvDataCriacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data de Criação"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvDataFechamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data de Fechamento"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnReabrirLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reabrir Lista"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#b9d23c"> <!-- Fundo verde -->
+
+    <!-- Título do Menu -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Principal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <!-- Botões de navegação -->
+    <Button
+        android:id="@+id/btnListasAbertas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listas Abertas"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#edae56" /> <!-- Cor do botão -->
+
+    <Button
+        android:id="@+id/btnListasAntigas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listas Antigas"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#edae56" /> <!-- Cor do botão -->
+
+    <Button
+        android:id="@+id/btnEstabelecimentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estabelecimentos"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#edae56" /> <!-- Cor do botão -->
+
+    <Button
+        android:id="@+id/btnComparadorPrecos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comparador de Preço"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#edae56" /> <!-- Cor do botão -->
+
+    <Button
+        android:id="@+id/btnConfiguracoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configurações"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#edae56" /> <!-- Cor do botão -->
+
+    <!-- Botão "Detalhes do Produto" centralizado -->
+    <Button
+        android:id="@+id/btnDetalhesProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detalhes_do_produto"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#edae56" /> <!-- Cor do botão -->
+
+</LinearLayout>
